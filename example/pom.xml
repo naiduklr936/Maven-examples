@@ -30,7 +30,7 @@
 		<pmd.plugin.version>3.5</pmd.plugin.version>
 		<cobertura.plugin.version>2.6</cobertura.plugin.version>
 		<findbugsplugin.version>3.0.3</findbugsplugin.version>
-		<curoqeserver>ma-curot-lapp43.corp.apple.com:1080</curoqeserver>
+		<curoqeserver></curoqeserver>
 		<bscommon.core.version>1.0.57</bscommon.core.version>
 	</properties>
 	
@@ -145,7 +145,7 @@
 					<version>2.5.3</version>
 					<configuration>
 						<autoVersionSubmodules>true</autoVersionSubmodules>
-						<tagNameFormat>appleub2bservice-@{project.version}</tagNameFormat>
+						<tagNameFormat>ram.com</tagNameFormat>
 						<useReleaseProfile>false</useReleaseProfile>
 					</configuration>
 				</plugin>
