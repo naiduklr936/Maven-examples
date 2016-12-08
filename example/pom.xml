@@ -4,8 +4,8 @@
 	<groupId>rc-cloud</groupId>
 	<artifactId>rc-cloud</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<packaging>pom</packaging>
-<name>parent pom</name>
+	<packaging>jar</packaging>
+<name>jar_file</name>
 	
 	<!-- properties section -->
 	<properties>
