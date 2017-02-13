@@ -209,7 +209,7 @@
 				<artifactId>maven-checkstyle-plugin</artifactId>
 				<version>${checkstyle.plugin.version}</version>
 				<configuration>
-					<configLocation>http://${curoqeserver}/precommit/Hooks/CheckStyle/curocheckstyle.xml</configLocation>
+					<configLocation>http://${localhost}/precommit/Hooks/CheckStyle/curocheckstyle.xml</configLocation>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -220,7 +220,7 @@
 					<linkXRef>false</linkXRef>
 					<targetJdk>1.8</targetJdk>
 					<rulesets>
-						<ruleset>http://${curoqeserver}/precommit/Hooks/PMD/curopmdrules.xml</ruleset>
+						<ruleset>http://${localhost}/precommit/Hooks/PMD/curopmdrules.xml</ruleset>
 					</rulesets>
 					<includeTests>false</includeTests>
 				</configuration>
@@ -230,7 +230,7 @@
 				<artifactId>findbugs-maven-plugin</artifactId>
 				<version>${findbugsplugin.version}</version>
 				<configuration>
-					<excludeFilterFile>http://${curoqeserver}/precommit/Hooks/Findbugs/findbugsExclude.xml</excludeFilterFile>
+					<excludeFilterFile>http://${localhost}/precommit/Hooks/Findbugs/findbugsExclude.xml</excludeFilterFile>
 				</configuration>
 			</plugin>
 			<plugin>
